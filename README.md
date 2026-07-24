@@ -1,135 +1,50 @@
 # News Portal Website Structure (6 Pages)
+Requirements of website: 6 Page website 
+a. Homepage Page: 
+i. Header Top Section (Email, Phone Number, Facebook, Twitter, LinkedIn, YouTube Link) 
+ii. Navigation Section with Logo, Home, About, Category (National, Politics, Sports, Education, Entertainment etc.), Author, Contact, Reporter Login page link. 
+iii. Breaking News Section (jQuery News Ticker Plugin, Full wide, Add minimum three news with sliding) 
+iv. One Lead News Section Left Part, Selected Four News Section in Right Side. v. Latest News Section (using bootstrap card) 
+vi. National News Section (using bootstrap card) 
+vii. Education News Section (using bootstrap card)
+viii. Big Footer Section ix. Footer Section. 
 
-## 1. Homepage
+b. About Page: 
+i. Breadcrumb Section. 
+ii. Editor Speech Section. 
+iii. Advertisement Policy Section. 
+iv. News Policy Section. 
+v. Administrative Staff Section. (using bootstrap card) 
 
-### i. Header Top Section
-- Email
-- Phone Number
-- Facebook
-- Twitter
-- LinkedIn
-- YouTube Link
-- Current Date & Time (JavaScript)
+c. Category Page:
+i. Breadcrumb Section. 
+ii. Category News Section. (using bootstrap card) 
+iii. Advertisement Section. 
+iv. Category News Section. (using bootstrap card) 
+v. Pagination Section. 
 
-### ii. Navigation Section
-- Logo
-- Home
-- About
-- Category
-  - National
-  - Politics
-  - Sports
-  - Education
-  - Entertainment
-- Author
-- Contact
-- Reporter Login
+d. Author Page: 
+i. Breadcrumb Section. 
+ii. Editor Speech Section. 
+iii. Senior Reporter Section. (using bootstrap card) 
+iv. General Reporter Section. (using bootstrap card) 
 
-### iii. Breaking News Section
-- jQuery News Ticker Plugin
-- Minimum 3 Sliding News
+e. Contact Page: 
+i. Breadcrumb Section. 
+ii. Direct Contact Information Section. 
+iii. Send Message Form Section. (Name, Email, Mobile, Message) 
+iv. Google Map API Section. 
 
-### iv. Lead News Section
-- Left:
-  - One Lead News
-- Right:
-  - Four Selected News
+f. Login Page: 
+i. Breadcrumb Section. 
+ii. Login Form Section. (User Name, Password) 
 
-### v. Latest News Section
-- Bootstrap Card
+Full container wide navigation menu with mouse hover effect. 
+Confirmation popup window when submit the login form.
+Current Date & Time Using JavaScript. 
+Include External CSS & JavaScript file. 
+Internal Pages Linking. 
+All the page must be responsive in all device.
 
-### vi. National News Section
-- Bootstrap Card
 
-### vii. Education News Section
-- Bootstrap Card
 
-### viii. Big Footer Section
-
-### ix. Footer Section
-
----
-
-## 2. About Page
-
-### i. Breadcrumb Section
-
-### ii. Editor Speech Section
-
-### iii. Advertisement Policy Section
-
-### iv. News Policy Section
-
-### v. Administrative Staff Section
-- Bootstrap Card
-
----
-
-## 3. Category Page
-
-### i. Breadcrumb Section
-
-### ii. Category News Section
-- Bootstrap Card
-
-### iii. Advertisement Section
-
-### iv. Category News Section
-- Bootstrap Card
-
-### v. Pagination Section
-
----
-
-## 4. Author Page
-
-### i. Breadcrumb Section
-
-### ii. Editor Speech Section
-
-### iii. Senior Reporter Section
-- Bootstrap Card
-
-### iv. General Reporter Section
-- Bootstrap Card
-
----
-
-## 5. Contact Page
-
-### i. Breadcrumb Section
-
-### ii. Direct Contact Information Section
-
-### iii. Send Message Form Section
-- Name
-- Email
-- Mobile
-- Message
-
-### iv. Google Map API Section
-
----
-
-## 6. Login Page
-
-### i. Breadcrumb Section
-
-### ii. Login Form Section
-- User Name
-- Password
-- Submit Button
-- Confirmation Popup Window
-
----
-
-# Additional Requirements
-
-- Full Container Wide Navigation Menu
-- Mouse Hover Effect on Navigation
-- Confirmation Popup Window on Login Submit
-- Current Date & Time Using JavaScript
-- External CSS File
-- External JavaScript File
-- Internal Page Linking
-- Responsive Design (Mobile, Tablet, Desktop)
